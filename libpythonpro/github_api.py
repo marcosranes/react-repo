@@ -6,6 +6,7 @@
 """
 import requests
 
+
 def avatar_github(username: str) -> str:
     url = f'https://api.github.com/users/{username}'
     response = requests.get(url)
